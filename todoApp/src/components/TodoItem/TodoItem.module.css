@@ -1,0 +1,81 @@
+.todoRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px;
+  border-radius: 6px;
+  color: #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.cyanRow {
+  background-color: #0284c7;
+}
+
+.orangeRow {
+  background-color: #ea580c;
+}
+
+.todoTitle {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.actionIcons {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.iconBtn {
+  background: transparent;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  border-radius: 4px;
+  transition: transform 0.15s ease, opacity 0.15s ease;
+  opacity: 0.9;
+}
+
+.iconBtn:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.editBox {
+  display: flex;
+  width: 100%;
+  gap: 8px;
+}
+
+.editInput {
+  flex: 1;
+  padding: 8px 12px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.saveBtn {
+  background-color: #10b981;
+  border: none;
+  color: #ffffff;
+  padding: 6px 14px;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.cancelBtn {
+  background-color: #64748b;
+  border: none;
+  color: #ffffff;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}

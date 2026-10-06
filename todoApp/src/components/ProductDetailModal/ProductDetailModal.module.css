@@ -1,0 +1,84 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 16px;
+}
+
+.modalBox {
+  background-color: #ffffff;
+  color: #0f172a;
+  border-radius: 12px;
+  max-width: 650px;
+  width: 100%;
+  padding: 28px;
+  position: relative;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.closeBtn {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  background: transparent;
+  border: none;
+  font-size: 22px;
+  cursor: pointer;
+  color: #64748b;
+}
+
+.modalLayout {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.modalImg {
+  max-width: 220px;
+  max-height: 220px;
+  object-fit: contain;
+  margin: 0 auto;
+}
+
+.details {
+  flex: 1;
+  min-width: 250px;
+}
+
+.categoryTag {
+  font-size: 11px;
+  text-transform: uppercase;
+  background-color: #f1f5f9;
+  color: #475569;
+  padding: 3px 8px;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.modalTitle {
+  font-size: 18px;
+  margin: 10px 0 8px 0;
+}
+
+.modalPrice {
+  color: #059669;
+  font-size: 20px;
+  margin: 0 0 12px 0;
+}
+
+.modalDesc {
+  font-size: 14px;
+  color: #475569;
+  line-height: 1.6;
+}
+
+.modalRating {
+  font-size: 13px;
+  color: #64748b;
+  margin-top: 12px;
+}

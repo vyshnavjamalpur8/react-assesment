@@ -1,0 +1,71 @@
+.todoPage {
+  min-height: calc(100vh - 65px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 16px;
+  background-color: #5b21b6;
+}
+
+.todoPanel {
+  background-color: #17172b;
+  width: 100%;
+  max-width: 520px;
+  padding: 40px 32px 48px;
+  border-radius: 16px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+.todoHeading {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 28px;
+}
+
+.todoForm {
+  display: flex;
+  height: 48px;
+  margin-bottom: 28px;
+}
+
+.todoInput {
+  flex: 1;
+  background-color: #1a1740;
+  border: 1px solid #3b357a;
+  border-right: none;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  padding: 0 16px;
+  color: #ffffff;
+  font-size: 15px;
+  outline: none;
+}
+
+.todoInput:focus {
+  border-color: #7c3aed;
+}
+
+.todoInput::placeholder {
+  color: #94a3b8;
+}
+
+.addBtn {
+  background: linear-gradient(90deg, #6366f1, #9333ea);
+  border: none;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 0 22px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.todoStack {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
